@@ -1,0 +1,18 @@
+body{ 
+    background-image: url(img/download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+header li{
+    display: inline-block;
+}
+header li a{
+    margin-right: 15px;
+    Position: relative;
+    text-transform: uppercase;
+}
+header{
+    text-align: center;
+}
