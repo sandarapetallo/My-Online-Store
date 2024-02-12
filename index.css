@@ -5,14 +5,47 @@ body{
     background-size: 100% 100%;
 
 }
+
 header li{
     display: inline-block;
+    border: 1px solid;
+    font-size: 20px;
+    padding: 20px 20px;
+    margin: 5px;
+    color: aliceblue;
+  
 }
 header li a{
     margin-right: 15px;
     Position: relative;
     text-transform: uppercase;
+    text-decoration: none;
+}
+header li:hover{
+    background-color: aliceblue;
 }
 header{
     text-align: center;
+}
+h2{
+    text-align: center;
+}
+.ul .li{
+    border: 1px solid #5b149e;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+    list-style: none;
+    margin: 5px;
+    margin-right: 1000px;
+}
+.ul .li:hover{
+    background-color: #5b149e;
+    color: aliceblue;
+}
+
+
+
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
